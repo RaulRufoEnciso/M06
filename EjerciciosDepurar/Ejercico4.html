@@ -1,0 +1,14 @@
+<html>
+    <script>
+        function incrementa() {
+            let comptador =
+            parseInt(document.getElementById("comptador").innerHTML)+1;
+
+            document.getElementById("comptador").innerHTML = comptador;
+        }
+    </script>
+    <body>
+        <button type="button" onclick= "incrementa()"> Incrementa </button>
+        <div id="comptador">0</div>
+    </body>
+</html>
